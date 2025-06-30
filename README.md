@@ -27,3 +27,6 @@ The goal was to learn and implement API requests, dynamic rendering using EJS, a
 - **Rick and Morty API**: https://rickandmortyapi.com/api/character
 - **Documentation of API**: https://rickandmortyapi.com/documentation 
 
+## Preview
+![{702EE14F-4540-4FF5-89F3-BD199AAC2F75}](https://github.com/user-attachments/assets/3033c629-49eb-43f8-8702-26f2eff74aa5)
+
