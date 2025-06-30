@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rick & Morty</title>
+        <link rel="stylesheet" href="styles/main.css">
+        
+    </head>
+    <body>
+        <h1>Rick and Morty Characters</h1>
+        
+        <div class="card">
+            <img src="<%= content.image %>" alt="">
+            <h2><%= content.name%></h2>
+            <div class="info">
+                <p><strong>Status:</strong> <%= content?.status || "Unknown" %></p>
+                <p><strong>Species:</strong> <%= content?.species || "Unknown" %></p>
+                <p><strong>Gender:</strong> <%= content?.gender || "Unknown" %></p>
+                <p><strong>Origin:</strong> <%= content?.origin?.name || "Unknown" %></p>
+                <p><strong>Location:</strong> <%= content?.location?.name || "Unknown" %></p>
+                <p><strong>Appeared in episodes:</strong> <%= content?.episode?.length || 0 %></p>
+                </p>
+            </div>
+
+        </div>
+        <h3>Refresh for new character</h3>
+        
+    </body>
+</html>
